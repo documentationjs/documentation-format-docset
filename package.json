@@ -1,0 +1,33 @@
+{
+  "name": "documentation-format-docset",
+  "version": "1.0.0",
+  "description": "a docset format output for documentation js",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . && tape test.js"
+  },
+  "keywords": [
+    "documentation",
+    "docset",
+    "format",
+    "dash",
+    "documentationjs"
+  ],
+  "author": "Tom MacWright",
+  "license": "ISC",
+  "dependencies": {
+    "documentation": "^1.0.7",
+    "handlebars": "^3.0.3",
+    "hat": "0.0.3",
+    "queue-async": "^1.0.7",
+    "slugg": "^0.1.2",
+    "sqlite3": "^3.0.7",
+    "stream-combiner": "^0.2.1",
+    "through": "^2.3.7",
+    "vinyl": "^0.4.6"
+  },
+  "devDependencies": {
+    "eslint": "^0.20.0",
+    "tape": "^4.0.0"
+  }
+}
