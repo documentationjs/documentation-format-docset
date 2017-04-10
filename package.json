@@ -16,18 +16,18 @@
   "author": "Tom MacWright",
   "license": "ISC",
   "dependencies": {
-    "documentation": "^1.0.7",
-    "handlebars": "^3.0.3",
+    "documentation": "^3.0.4",
+    "handlebars": "^4.0.6",
     "hat": "0.0.3",
     "queue-async": "^1.0.7",
-    "slugg": "^0.1.2",
+    "slugg": "^1.2.0",
     "sqlite3": "^3.0.7",
     "stream-combiner": "^0.2.1",
     "through": "^2.3.7",
-    "vinyl": "^0.4.6"
+    "vinyl": "^2.0.1"
   },
   "devDependencies": {
-    "eslint": "^0.20.0",
+    "eslint": "^3.19.0",
     "tape": "^4.0.0"
   }
 }
